@@ -12,9 +12,14 @@ namespace Multiplication
         static void Main(string[] args)
         {
             BigInt big;
-            big = "123456789";
-            big.Print();
+            BigInt lit;
+            BigInt Composit;
+            big = Console.ReadLine();
+            lit = Console.ReadLine();
+            Composit = big * lit;
+            Composit.Print();
             Console.ReadKey();
+            
         }
     }
 }
